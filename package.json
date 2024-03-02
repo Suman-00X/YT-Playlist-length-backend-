@@ -2,7 +2,7 @@
   "name": "yt-pl-len-github",
   "version": "1.0.0",
   "description": "youtube playlist length calculator",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
