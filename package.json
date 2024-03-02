@@ -1,0 +1,19 @@
+{
+  "name": "yt-pl-len-github",
+  "version": "1.0.0",
+  "description": "youtube playlist length calculator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "author": "Anshuman Pandey",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "googleapis": "^66.0.0",
+    "nodemon": "^2.0.6"
+  }
+}
